@@ -1,0 +1,36 @@
+<html>
+
+<head>
+	<title>Test JSON RPC</title>
+	<script src="js/jquery.js"></script>
+	<script src="js/base64.js"></script>
+	<script src="js/jquery.json-viewer.js"></script>
+	<script src="js/main.js"></script>
+	<link href="css/jquery.json-viewer.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+	<h3>
+	 Test JSON RPC Api
+	</h3> Url:
+	<input type="text" id="url" size="70">
+	<br> User:
+	<input type="text" id="user" size="20">
+	 Password/Token:
+	<input type="text" id="token" size="30">
+	<br>
+	<textarea name="request" id="request" cols="80" rows="6"></textarea>
+	<br>
+	<button id="test">
+		Test Request
+	</button>
+	<br>
+	<p id="status">
+
+	</p>
+	<hr>
+	<pre id="json-renderer"></pre>
+
+</body>
+
+</html>
